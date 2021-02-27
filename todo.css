@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(33, 166, 170);
+}
+
+input {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background: #ccc;
+    outline: none;
+}
+
+input:focus {
+    background: rgb(33, 166, 170);
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    color: rgb(33, 166, 170);
+}
+
+button:hover {
+    background: rgb(33, 166, 170);
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.delete {
+    margin-top: 2px;
+    margin-left: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background: #ccc;
+    color: salmon;
+}
+
+.delete:hover {
+    background: salmon;
+    color: white;
+}
+
+.toggler {
+    margin-top: 10px;
+}
